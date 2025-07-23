@@ -41,6 +41,7 @@ playwright install
 Create a .txt file (e.g. urls.txt) with Pinterest pin URLs (one per line):
 
 https://www.pinterest.com/pin/123456789/
+
 https://www.pinterest.com/pin/987654321/
 ...
 
@@ -51,9 +52,15 @@ python pinterest.py urls.txt -m 100 -w 6 -o images -s 80
 ````
 
 Arguments
+
 Flag	Description	Default
+
 input_file	Path to .txt file containing Pinterest URLs	required
+
 -m, --max-downloads	Total number of images to download	50
+
 -w, --workers	Number of parallel download threads	4
+
 -o, --output	Output directory to save downloaded images	temp/
+
 -s, --scrolls	Max scrolls per Pinterest page	100
