@@ -15,7 +15,7 @@ A robust Python tool for downloading high-quality images from Pinterest boards o
 
 ## 📦 Requirements
 
-- Python 3.7+
+- Python 3.10+
 - [Playwright](https://playwright.dev/python/)
 - [tqdm](https://github.com/tqdm/tqdm)
 - [colorama](https://pypi.org/project/colorama/)
@@ -39,7 +39,18 @@ https://www.pinterest.com/pin/987654321/
 Run the script:
 
 ```bash
+python -m venv venv
+```
+
+```bash
+venv\Scripts\activate
+or
+source venv\bin\activate
+```
+```bash
 python pinterest.py urls.txt -m 100 -w 6 -o images -s 80
+````
+
 Arguments
 Flag	Description	Default
 input_file	Path to .txt file containing Pinterest URLs	required
@@ -47,4 +58,3 @@ input_file	Path to .txt file containing Pinterest URLs	required
 -w, --workers	Number of parallel download threads	4
 -o, --output	Output directory to save downloaded images	temp/
 -s, --scrolls	Max scrolls per Pinterest page	100
-```
