@@ -22,6 +22,15 @@ A robust Python tool for downloading high-quality images from Pinterest boards o
 - [requests](https://pypi.org/project/requests/)
 
 Install dependencies:
+```bash
+python -m venv venv
+```
+
+```bash
+venv\Scripts\activate
+or
+source venv\bin\activate
+```
 
 ```bash
 pip install -r requirements.txt
@@ -37,15 +46,6 @@ https://www.pinterest.com/pin/987654321/
 
 Run the script:
 
-```bash
-python -m venv venv
-```
-
-```bash
-venv\Scripts\activate
-or
-source venv\bin\activate
-```
 ```bash
 python pinterest.py urls.txt -m 100 -w 6 -o images -s 80
 ````
