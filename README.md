@@ -24,9 +24,8 @@ A robust Python tool for downloading high-quality images from Pinterest boards o
 Install dependencies:
 
 ```bash
-pip install playwright tqdm colorama requests
+pip install -r requirements.txt
 playwright install
-
 ```
 
 📄 Usage
