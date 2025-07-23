@@ -1,4 +1,4 @@
-# 📌 Pinterest Image Downloader with Playwright
+# 📌 BulkPinterest -> Pinterest Image Downloader with Playwright
 
 A robust Python tool for downloading high-quality images from Pinterest boards or pins using headless browser automation with [Playwright](https://playwright.dev/). This script scrolls through Pinterest pages, extracts image URLs, and downloads them efficiently with fallback mechanisms for multiple quality levels.
 
