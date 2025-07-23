@@ -1,0 +1,36 @@
+I want to make python tools
+
+##Example##
+url target : https://www.pinterest.com/pin/605030531196116836/
+Path for download : https://i.pinimg.com/originals/13/85/b6/1385b6b23fafe4597dacd49933e715ce.jpg
+
+TODO :
+
+---
+
+1. Greb picture url in input traget url and try to download 
+
+Try to replace in <quality> originals(Best) -> 1200x -> 736x -> 564x(worst)
+
+##Example##
+https://i.pinimg.com/<quality>/13/85/b6/1385b6b23fafe4597dacd49933e715ce.jpg
+
+if downloaded will exit loop and goto next url picture
+
+---
+
+2. user can set maximum download picture
+
+You can keep as many urls as you want, but when trying to download, if it fails to download at any of the required quality, just skip it and don't count it towards your download count
+
+---
+
+3.During url collection, when the number of collected urls is more than half of what the user wants, parallel downloads will be started
+
+---
+
+4.you will show me progress by tqdm and decorated with colors to look formal
+
+---
+
+If you don't understand something, ask until you understand and then do it.
